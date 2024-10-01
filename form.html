@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/form.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="shortcut icon" href="images/favi.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Karla:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -13,12 +13,11 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt="Logo">
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="form.html">Register</a></li>
-           
         </ul>
         <div class="mobile-menu">
             <div class="bar"></div>
@@ -26,269 +25,133 @@
             <div class="bar"></div>
         </div>
     </nav>
+
     <section class="forms">
         <form action="" method="get" id="form">
             <fieldset>
                 <legend>BIODATA</legend>
-                <p style="color: red;">Please Read the Instructions Carefully and fill out the form accordinly.</p>
+                <p style="color: red;">Please Read the Instructions Carefully and fill out the form accordingly.</p>
                 <div class="container">
                     <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" placeholder="Surname" name="Surname">
-                        <!-- <label for="name">Surname</label> -->
+                        <input type="text" required autocomplete="off" placeholder="Surname" name="Surname">
                     </div>
                     <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" placeholder="Other Names" name="Other Names">
-                        <!-- <label for="name">Other Names</label> -->
+                        <input type="text" required autocomplete="off" placeholder="Other Names" name="Other Names">
                     </div>
                 </div>
                 <div class="container">
                     <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="nss" placeholder="NSS ID" name="NSS ID">
-                        <!-- <label for="name">NSS ID</label> -->
+                        <input type="text" required autocomplete="off" id="nss" placeholder="NSS ID" name="NSS ID">
                     </div>
                     <div class="inputGroup">
-                        <input type="email" required="" id="email" placeholder="email" name="email">
-                        <!-- <label for="name">email</label> -->
+                        <input type="email" required id="email" placeholder="Email" name="email">
                     </div>
                 </div>
-               <div class="container">
-                    <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="age" placeholder="Phone Number" name="Phone Number">
-                    
-                    </div>
-                    <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="age" placeholder="Whatsapp Number" name="Whatsapp Number">
-                        
-                    </div>
-               </div>
                 <div class="container">
                     <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="" placeholder="Ghana Card Number" name="National ID">
-                        
+                        <input type="tel" required autocomplete="off" placeholder="Phone Number" name="Phone Number">
                     </div>
-                    <!-- <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="" placeholder="Unit Posted" name="Unit Posted">
-                        
-                    </div> -->
+                    <div class="inputGroup">
+                        <input type="tel" required autocomplete="off" placeholder="Whatsapp Number" name="Whatsapp Number">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="inputGroup">
+                        <input type="text" required autocomplete="off" placeholder="Ghana Card Number" name="National ID">
+                    </div>
                     <label for="dob">Date of Birth</label>
-                <div class="inputGroup">
-                   
-                    <input type="date" required="" autocomplete="off" id="date"  name="dob" placeholder="Date of Birth">
-                    
+                    <div class="inputGroup">
+                        <input type="date" required autocomplete="off" id="dob" name="dob">
+                    </div>
                 </div>
-                </div>
-
-                
-                
             </fieldset><br>
 
             <fieldset>
                 <legend>EDUCATION</legend>
                 <div class="container">
                     <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="school" placeholder="School Attended" name="School Attended">
-                        
+                        <input type="text" required autocomplete="off" placeholder="School Attended" name="School Attended">
                     </div>
                     <div class="inputGroup">
-                        <input type="text" required=""  id="qualification" placeholder="Qualification eg: 'BSC,MSc' etc " name="Qualification">
-                        
+                        <input type="text" required placeholder="Qualification (e.g., BSc, MSc)" name="Qualification">
                     </div>
                 </div>
-               
                 <div class="inputGroup">
-                    <input type="text" required=""  id="programme" placeholder="Programme" name="Programme">
-                    
+                    <input type="text" required placeholder="Programme" name="Programme">
                 </div>
             </fieldset><br>
 
-            <fieldset>
+            <!-- <fieldset>
                 <legend>HR Information</legend>
-                <div class="month">
-                    <p>In this area, each NSP is entitled to a 1 month leave period. Please specify the month you would like to select for your leave. You can only apply for leave after 6 moths into your service</p>
-                </div>
-               
+                <p>Specify the month you'd like to select for your leave (applicable after 6 months of service).</p>
                 <div class="container">
                     <div class="inputGroup">
-                        <input type="text" required="" autocomplete="off" id="" placeholder="Unit Posted" name="Unit Posted">
-                        
+                        <input type="text" required autocomplete="off" placeholder="Unit Posted" name="UnitPosted">
                     </div>
                     <div class="inputGroup">
-                        <input type="text" required=""  id="leave" placeholder=" Provide Leave Month" name="Expected Leave Month">
-                        
+                        <input type="text" required placeholder="Expected Leave Month" name="ExpectedLeaveMonth">
                     </div>
                 </div>
-            </fieldset><br>
+            </fieldset><br> -->
 
             <fieldset id="em">
-                <legend>EMMERGENCY</legend>
-                <p>Provide a Number to call incase of an emmergency</p>
+                <legend>EMERGENCY</legend>
+                <p>Provide an emergency contact number.</p>
                 <div class="inputGroup">
-                    <input type="text" required="" autocomplete="off" id="" placeholder="Contact Number" name="Emmergency Contact">
-                    
+                    <input type="tel" required autocomplete="off" placeholder="Emergency Contact" name="Emergency Contact">
                 </div>
-                
             </fieldset>
 
             <div class="container1">
-                <button type="submit" class="button">submit</button>
-                
+                <button type="submit" class="button">Submit</button>
                 <button type="reset" class="reset">Reset</button>
             </div>
-            
         </form>
     </section>
-
-    <!-- <footer class="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <address>
-                            <p>Madina Polyclinic - Rawlings Circle</p>
-                            <p class="mb-4">La Nkwatanang Municipal District, Greater Accra </p>
-                            <div class="d-flex align-items-center">
-                                <p class="mr-4 mb-0">+233 123 456 789</p>
-                                <a href="mailto:mprchrzone@gmail.com" class="footer-link">mprchrzone@gmail.com</a>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <p class="mr-4 mb-0">+233 222 345 342</p>
-                                <a href="mailto:Marshmallow@yourmail.com" class="footer-link">Marshmallow@yourmail.com</a>
-                            </div>
-                        </address>
-                        <div class="social-icons">
-                            <h6 class="footer-title font-weight-bold">
-                                Social Share
-                            </h6>
-                            <div class="d-flex">
-                                <a href="#"><i class="mdi mdi-github-circle"></i></a>
-                                <a href="#"><i class="mdi mdi-facebook-box"></i></a>
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-dribbble"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                
-                                <ul class="list-footer">
-                                    <li><a href="#" class="footer-link">Home</a></li>
-                                    
-                                    
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                
-                                <ul class="list-footer">
-                                    
-                                    <li><a href="#" class="footer-link">Services</a></li>
-                                    
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                
-                                <ul class="list-footer">
-                                    
-                                    <li><a href="#" class="footer-link">Registration</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex align-items-center">
-                        <img src="images/logo.png" alt="logo" class="mr-3"></br>
-                        <p class="mb-0 text-small pt-1">© 2023 <a href="https://www.bootstrapdash.com" class="text-white" target="_blank">mprchrzone</a>. All rights reserved.</p>
-        
-                        <p class="mb-0 text-small pt-1 pl-4">Designed By: <a href="https://www.cnsackey.site" class="text-white" target="_blank">cnsackey</a></p>
-                    </div>
-       
-                    <div>
-                        <div class="d-flex">
-                            <a href="#" class="text-small text-white mx-2 footer-link">Privacy Policy </a>          
-                            <a href="#" class="text-small text-white mx-2 footer-link">Customer Support </a>
-                            <a href="#" class="text-small text-white mx-2 footer-link">Careers Guide</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </footer> -->
 
     <footer>
         <div class="footcenter">
             <address>
-                <p>Madina Polyclinic - Rawlings Circle</p>
-                <p class="mb-4">La Nkwatanang Municipal District, Greater Accra </p>
-                <div class=" align-items-center">
-                    <p class="mr-4 mb-0">+233 123 456 789</p>
-                    <a href="mailto:mprchrzone@gmail.com" class="footer-link">mprchrzone@gmail.com</a>
-                </div>
-                <div class=" align-items-center">
-                    <p class="mr-4 mb-0">+233 222 345 342</p>
-                
-                </div>
-
-
+                <p>Madina Polyclinic - Rawlings Circle, La Nkwatanang Municipal District, Greater Accra</p>
+                <p>+233 123 456 789 | <a href="mailto:mprchrzone@gmail.com" class="footer-link">mprchrzone@gmail.com</a></p>
                 <div class="links">
                     <a href="index.html">Home</a>
-                    <a href="index.html">Services</a>
-                    <a href="">Announcements</a>
+                    <a href="services.html">Services</a>
+                    <a href="#">Announcements</a>
                 </div>
             </address>
-           
         </div>
         <div>
             <div class="d-flex">
-                <a href="#" class="text-small text-white mx-2 footer-link">Privacy Policy </a>          
-                
+                <a href="#" class="text-small text-white mx-2 footer-link">Privacy Policy</a>
             </div>
         </div>
     </footer>
 
-    
     <script>
-        
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwMUPKS_0AZcUHG5qyRGFj8xoBShZvpiA5AWhbyfoCfg4tvH3PGpdgLAeo3NuuuNb6P_g/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz6nHXGFDES0OwpHpjJBBaM1U9-fhTMou2vPk9THNXG3k-U6_y37otq5qlAXPxRL-RFUA/exec';
         const form = document.querySelector('#form');
-    
+
         form.addEventListener('submit', e => {
             e.preventDefault();
-    
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     console.log('Success!', response);
-                    // Clear the form
                     form.reset();
-                    // Display a success message using an alert
                     alert('Thank you for your submission!');
                 })
                 .catch(error => {
                     console.error('Error!', error.message);
-                    // Display an error message using an alert
                     alert('Submission failed. Please try again.');
                 });
         });
-    </script>
 
-    <script>
         const mobileMenu = document.querySelector('.mobile-menu');
-const navLinks = document.querySelector('.nav-links');
+        const navLinks = document.querySelector('.nav-links');
 
-mobileMenu.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
-
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
     </script>
-
-
-    
-    
 </body>
 </html>
